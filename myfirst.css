@@ -1,0 +1,22 @@
+.Article{
+    
+    background-color: rgb(9, 66, 2);
+    color: blue;
+    text-align:center;
+    margin: 20px 10px 40px ;
+    border: 10px solid rgb(182, 15, 15);
+    border-radius: 40px;
+    border-top: none;
+    padding: 20px 10px 50px 10px;
+    box-shadow: 10px 0px 35px rgb(218, 122, 122);
+    
+} 
+.Vlog{
+    text-transform: uppercase;
+    color: rgb(0, 255, 13);
+    text-align: center;
+    border: 10px solid rgb(0, 0, 235);
+    border-radius: 40px;
+    border-bottom: none;
+
+}
