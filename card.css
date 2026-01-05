@@ -1,0 +1,67 @@
+
+body h2 {
+    background-color: rgba(5, 87, 107, 0.7);
+    color: white;
+    border-radius: 20px;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(background_product.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+}
+section .card {
+
+    height: auto;
+    max-width: 200px;
+    border: 2px solid #0e0000;
+    border-radius: 10px;
+    padding: 20px 16px 16px 20px;
+    background-color: rgba(122, 7, 7, 0.2);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+}
+section .card img {
+    width: 100%;
+    /* height: 200px; */
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    /* margin-bottom: 12px; */
+}
+section .card:hover {
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+section .card button {
+    
+    font-size: 1em;
+    box-shadow: #000000 2px 2px 5px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 35px;
+    background-color: rgba(160, 16, 16, 0.377);
+    color: #031a29;
+}
+section .card button:hover {
+    background-color: rgba(255, 0, 0, 0.404);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+body section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
